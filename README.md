@@ -1,7 +1,7 @@
 # Empirical Replication: Ethanol Plant Entry and Local Corn Prices
 
 **Original Paper:** Jung, J., Sesmero, J., & Siebert, R. (2026). *American Journal of Agricultural Economics* (DOI: `10.1002/ajae.70099`).  
-**Replication Author:** [Kexi Huang]  
+**Replication Author:** Kexi Huang  
 **Date:** October 13, 2026  
 **Software Environment:** R (`fixest`, `did`, `dplyr`, `tidyr`, `readxl`, `ggplot2`)
 
