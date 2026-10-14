@@ -46,7 +46,7 @@ Because ethanol plants entered across different years during the 2005–2014 bio
 | **Tables B1 & B2** | Matching-DiD (`NNM(1,2,4)` & `PSM(1,2,4)`) | `NNM(4)` Premium: **0.1564*** *(0.0538)*<br>`PSM(4)` Premium: **0.1598*** *(0.0543)* | Results are invariant to pre-matching treated elevators with 1, 2, or 4 comparable control elevators. |
 
 ### Dynamic Event-Study Plot (Figure A1)
-![Figure A1: Dynamic Price Response to First Ethanol Plant Entry](figures/Figure_A1_Event_Study.png)
+![Figure A1: Dynamic Price Response to First Ethanol Plant Entry](output/Figure_A1_Event_Study.png)
 
 ---
 
