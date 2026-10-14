@@ -79,18 +79,16 @@ AJAE70099_Replication/
 │   ├── DID_NNM(1/2/4)_Submission.xlsx# Nearest-Neighbor Matched datasets (k = 1, 2, 4)
 │   └── DID_PSM(1/2/4)_Submission.xlsx# Propensity Score Matched datasets (k = 1, 2, 4)
 │
-├── scripts/                          # Reproducible R scripts & RMarkdown master report
+├── scripts/                          # Reproducible R scripts & RMarkdown source
 │   ├── 01_main_analysis.R            # Steps 1-2: Data prep & Table 3 (Models 1-11)
 │   ├── 02_staggered_panel.R          # Step 3: Callaway & Sant'Anna Event Study (Tables A1 & C4)
 │   ├── 03_spatial_robustness.R       # Step 4: OLS, Conley Spatial HAC SEs, Posey exclusion (Tables C2-C6)
 │   ├── 04_matching_robustness.R      # Step 5: NNM & PSM Matching-DiD (Tables B1 & B2)
-│   ├── Replication_Report.Rmd        # Unified end-to-end RMarkdown notebook
-│   └── Replication_Report.html       # Knitted HTML report (viewable in browser)
+│   └── Replication_Report.Rmd        # Unified end-to-end RMarkdown notebook
 │
-├── figures/                          # Generated figures
-│   └── Figure_A1_Event_Study.png     # High-resolution Callaway & Sant'Anna event-study plot
-│
-└── output/                           # Exported LaTeX (.tex) and HTML regression tables
+└── output/                           # Knitted HTML report & generated figures
+    ├── Replication_Report.html       # Knitted HTML report (code + all regression tables)
+    └── Figure_A1_Event_Study.png     # High-resolution Callaway & Sant'Anna event-study plot
 ```
 
 ---
