@@ -156,8 +156,8 @@ p_event <- ggdid(cs_event) +
 print(p_event)
 
 # Save high-resolution figure to a dedicated output folder relative to the scripts directory
-if (!dir.exists("../figures")) dir.create("../figures")
-ggsave("../figures/Figure_A1_Event_Study.png", plot = p_event, width = 8, height = 5, dpi = 300)
+if (!dir.exists("../output")) dir.create("../output")
+ggsave("../output/Figure_A1_Event_Study.png", plot = p_event, width = 8, height = 5, dpi = 300)
 ```
 
 ```{r table_c4}
