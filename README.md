@@ -5,6 +5,8 @@
 **Date:** October 13, 2026  
 **Software Environment:** R (`fixest`, `did`, `dplyr`, `tidyr`, `readxl`, `ggplot2`)
 
+> 📊 **[Click Here to View the Full Rendered HTML Replication Report (Code + All Regression Tables)](https://htmlpreview.github.io/?https://github.com/kcauchy/AJAE70099_Replication/blob/main/output/Replication_Report.html)**
+
 ---
 
 ## 1. Project Overview & Motivation
