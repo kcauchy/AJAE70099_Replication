@@ -5,7 +5,8 @@
 **Date:** October 13, 2026  
 **Software Environment:** R (`fixest`, `did`, `dplyr`, `tidyr`, `readxl`, `ggplot2`)
 
-> 📊 **[Click Here to View the Full Rendered HTML Replication Report (Code + All Regression Tables)](https://htmlpreview.github.io/?https://github.com/kcauchy/AJAE70099_Replication/blob/main/output/Replication_Report.html)**
+> 📊 **[Click Here to View the Full Interactive HTML Replication Report](https://kcauchy.github.io/AJAE70099_Replication/output/Replication_Report.html)**  
+> *(Live report containing methodological notes, diagnostics, and fully styled regression tables.)*
 
 ---
 
@@ -102,4 +103,4 @@ AJAE70099_Replication/
    ```r
    install.packages(c("readxl", "dplyr", "tidyr", "fixest", "did", "ggplot2", "knitr", "rmarkdown"))
    ```
-3. **Knit the Master Report:** Open `scripts/Replication_Report.Rmd` in RStudio and click **Knit** (or run `rmarkdown::render("scripts/Replication_Report.Rmd")` from the project root) to execute all 5 steps and compile `Replication_Report.html` and `figures/Figure_A1_Event_Study.png`.
+3. **Knit the Master Report:** Open `scripts/Replication_Report.Rmd` in RStudio and click **Knit** (or run `rmarkdown::render("scripts/Replication_Report.Rmd")` from the project root) to execute all 5 steps and compile `output/Replication_Report.html` and `output/Figure_A1_Event_Study.png`.
